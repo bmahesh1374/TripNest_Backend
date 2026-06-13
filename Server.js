@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 app.use("/api/hoteldata", hotelDataAddedToDBRouter);
 app.use("/api/categorydata", categoryDataAddedToDBRounter);
 app.use("/api/hotels", hotelRouter);
-app.use("/api/category", categoryRouter);
+app.use("/api/categories", categoryRouter);
 app.use("/api/hotels", singleHotelRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/wishlist", wishlistRouter);
